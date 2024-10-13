@@ -23,6 +23,32 @@ def hasCycle(head) -> bool:
     
     return 0
 
+    # for getting the position of intersection.
+    # first , second = head, head
+
+    # has_cycle = 0
+
+    # while second and second.next:
+
+    #     first = first.next
+    #     second = second.next.next
+
+    #     if first == second:
+    #         has_cycle =  1
+    #         break
+
+    # if not has_cycle:
+    #     return None
+
+    # first = head
+
+    # while first != second:
+
+    #     first = first.next
+    #     second = second.next
+
+    # return first
+
 
 head = [3,2,0,-4]
 v1 = hasCycle(head)
